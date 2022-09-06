@@ -21,6 +21,7 @@ namespace Kattis_Query
             // Add users here by entering the users unique address extension to userList.
             // For example, in my case complete kattis address to my account is: https://open.kattis.com/users/christian-abrahamsson
             // For above address we would add "christian-abrahamsson" to userList.
+            // Adding another comment line
             userList.Add("christian-abrahamsson");
 
             Kattis[] accounts = new Kattis[userList.Count];
