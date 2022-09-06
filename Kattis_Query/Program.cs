@@ -18,9 +18,9 @@ namespace Kattis_Query
 
             List<string> userList = new List<string>();
 
-            // Add users here by entering the users unique address extension to userList
+            // Add users here by entering the users unique address extension to userList.
             // For example, in my case complete kattis address to my account is: https://open.kattis.com/users/christian-abrahamsson
-            // For above address we would add "christian-abrahamsson" to userList
+            // For above address we would add "christian-abrahamsson" to userList.
             userList.Add("christian-abrahamsson");
 
             Kattis[] accounts = new Kattis[userList.Count];
@@ -38,7 +38,7 @@ namespace Kattis_Query
             int count = 1;
             foreach (Kattis account in accounts)
             {
-                Console.WriteLine($"Class rank: {count}\nUser:\t{account.user}\nRank:\t{account.rank}\nScore:\t{account.score}\n");
+                Console.WriteLine($"Local rank: {count}\nUser:\t{account.user}\nRank:\t{account.rank}\nScore:\t{account.score}\n");
                 count++;
             }
 
